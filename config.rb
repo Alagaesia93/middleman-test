@@ -23,7 +23,7 @@ page '/*.txt', layout: false
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 data.singers.singers.each do |singer|
-  proxy "/#{singer.name}.html", '/singer.html', locals: { singer: singer }
+  proxy "/#{singer.name}.html", '/singer.html', locals: { singer: singer }, ignore: true
 end
 
 # proxy(
