@@ -1,0 +1,12 @@
+{
+  "singers": [
+    {
+      "name": "Alessandro",
+      "last_name": "Macagno"
+    },
+    {
+      "name": "Mateja",
+      "last_name": "Sustersic"
+    }
+  ]
+}
